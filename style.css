@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to  right, #2A7B9B , #57C785 , #EDDD53);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    
+}
+
+#display {
+    font-family: "Roboto Mono", monospace;
+    border: 2px solid black;
+    height: 2em;
+    width: 10em;
+    padding: 0;
+    margin-top: 30vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(168, 248, 174);
+    color: rgb(65, 54, 54);
+    text-align: right;
+    font-size: 2em;
+}
+
+.buttons button {
+    border-radius: 5px;
+    font-size: 0.9em;
+    border: 1px solid black;
+    padding: 1.02em;
+    color: hsl(120, 9%, 4%);
+    margin-top: 1em;
+    transition: background-color ease 0.3s;
+    transition: transform ease 0.2s;
+    
+}
+
+.buttons button:hover {
+    background-color: hsla(135, 3%, 29%, 0);
+    transform: translateX(1px) ;
+}
